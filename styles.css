@@ -1,0 +1,52 @@
+body {
+  background-image: url('tu-imagen-de-fondo.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+#container {
+  border: 2px solid blue;
+  padding: 10px;
+  display: flex;
+}
+
+#playerContainer {
+  flex: 1;
+  padding: 10px;
+}
+
+#player {
+  width: 100%;
+}
+
+#playlistContainer {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  height: 300px;
+}
+
+#playlist {
+  margin-right: 15px;
+}
+
+#socialMedia {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  text-align: right;
+}
+
+#videoOptions {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+select, input[type="checkbox"] {
+  margin-top: 5px;
+}
